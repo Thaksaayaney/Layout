@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+}
+
+.para {
+    padding: 5px;
+    color: blue;
+    text-indent: 30px;
+    
+}
+
+#header {
+    
+    overflow: hidden;
+    background-image: url(cover.gif);
+    width: 100%;
+    padding: 120px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+
+
+#footer {
+    height: 40px;
+    overflow: hidden;
+    
+    background: white;
+    border-top: 1px solid gray;
+    clear: both;
+    background-image: url(net.jpg);
+}
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+    
+}
+  
+  
+.topnav .signin-container {
+    float: right;
+}
+  
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    width:120px;
+}
+  
+  .topnav .signin-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 26px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav .signin-container {
+      float: none;
+    }
+    
+    .topnav input[type=text], .topnav .signin-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  
+
+   .topnav .signin-container .topnav input[type=text]{
+       clear: both;
+   }
+  
+  
+  
+   #learn{
+      background-color: blue;
+      padding: 20px;
+      border-radius: 5px;
+      margin-left: 15px;
+  }
+
+  .view{
+    background-color:crimson;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin:right;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
